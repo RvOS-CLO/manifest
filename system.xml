@@ -1088,7 +1088,7 @@
     <linkfile src="bt-system-opensource-product.mk" dest="vendor/qcom/defs/product-defs/system/bt-system-opensource-product.mk"/>
   </project>
   <project name="platform/vendor/qcom-opensource/bluetooth_ext" path="vendor/qcom/opensource/commonsys/bluetooth_ext" revision="40216ee321d0b34e0e74ce69fd336f35c3dbb3ed" upstream="refs/heads/bt-sys.lnx.13.0.r1-rel" groups="qc-common-sys-intf,vsdk_inc_L0,vsdk_exc_L1,vsdk_exc_L2,vsdk_exc_L3"/>
-  <project name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils" revision="7dceae797e5426b95bcc40b0362bfad34abd5d95" upstream="refs/heads/android-core-sysintf.lnx.13.0.r1-rel" groups="qc-common-sys-intf,vsdk_inc_L0,cyborg,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3">
+  <project name="platform/vendor/qcom-opensource/core-utils" path="vendor/qcom/opensource/core-utils" revision="9d6e6387e8a1059e9f167d7b0cc8ee7661e8b4c7" upstream="refs/heads/android-core-sysintf.lnx.13.0.r1-rel" groups="qc-common-sys-intf,vsdk_inc_L0,cyborg,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3">
     <linkfile src="build/QSSI_violators.mk" dest="vendor/qcom/build/tasks/QSSI_violators.mk"/>
     <linkfile src="build/QMAA_enforcement.mk" dest="vendor/qcom/build/tasks/QMAA_enforcement.mk"/>
     <linkfile src="build/vendor_prop_context_restriction.mk" dest="vendor/qcom/build/tasks/vendor_prop_context_restriction.mk"/>
@@ -1109,7 +1109,7 @@
     <linkfile src="config/display-interfaces-product.mk" dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk"/>
   </project>
   <project name="platform/vendor/qcom-opensource/dpm-commonsys" path="vendor/qcom/opensource/commonsys/dpm" revision="9ff587035fddde3d21724b61f9807f347d69e03a" upstream="refs/heads/data-sys.lnx.13.0.r1-rel" groups="qc-common-sys-intf,vsdk_inc_L0,vsdk_inc_L1,vsdk_exc_L2,vsdk_exc_L3"/>
-  <project name="platform/vendor/qcom-opensource/fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" revision="1cc2605f48797821ce5172222b4f43a122e83fdc" upstream="refs/heads/fm-sys.lnx.13.0.r1-rel" groups="qc-common-sys-intf,vsdk_inc_L0,vsdk_inc_L1,vsdk_exc_L2,vsdk_exc_L3"/>
+  <project name="platform/vendor/qcom-opensource/fm-commonsys" path="vendor/qcom/opensource/commonsys/fm" revision="66eb3be5dbb097b601f793364d1e33bc696f3214" upstream="refs/heads/fm-sys.lnx.13.0.r1-rel" groups="qc-common-sys-intf,vsdk_inc_L0,vsdk_inc_L1,vsdk_exc_L2,vsdk_exc_L3"/>
   <project name="platform/vendor/qcom-opensource/interfaces" path="vendor/qcom/opensource/interfaces" revision="e8cfd26ce8905b89efeffa161bbc719e009d485f" upstream="refs/heads/android-core-sysintf.lnx.13.0.r1-rel" groups="qc-common-sys-intf,vsdk_inc_L0,cyborg,vsdk_inc_L1,vsdk_inc_L2,vsdk_inc_L3"/>
   <project name="platform/vendor/qcom-opensource/iot-media-app-commonsys" path="vendor/qcom/opensource/commonsys/iot-media-app-commonsys" revision="80c38f2321883f5e8c7b69d08309de099d4a205b" upstream="refs/heads/iot-media-app-sys.lnx.1.0.r1-rel" groups="qc-common-sys,vsdk_exc_L1,vsdk_exc_L2,vsdk_exc_L3">
     <linkfile src="iot-media-app-commonsys-system.mk" dest="vendor/qcom/defs/product-defs/system/iot-media-app-commonsys-system.mk"/>
