@@ -48,8 +48,14 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <!-- RvOS -->
+  <remote  name="rvos"
+	   fetch="https://github.com/RvOS-CLO"
+	   revision="topaz" />
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
+  <include name="rvos.xml"/>
   <include name="obsolete.xml"/>
 
 </manifest>
