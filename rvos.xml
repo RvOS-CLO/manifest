@@ -12,10 +12,6 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <!-- CTS -->
-  <remove-project name="cts" />
-  <project path="cts" name="android_cts" remote="rvos" />
-
   <!-- Device -->
   <remove-project name="device/qcom/qssi" />
   <project path="device/qcom/qssi" name="android_device_qcom_qssi" remote="rvos" />
