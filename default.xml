@@ -51,7 +51,7 @@
   <!-- RvOS -->
   <remote  name="rvos"
 	   fetch="https://github.com/RvOS-CLO"
-	   revision="topaz" />
+	   revision="tiramisu" />
 
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
