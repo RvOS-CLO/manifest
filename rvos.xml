@@ -23,6 +23,8 @@
   <!-- External -->
   <remove-project name="platform/external/wpa_supplicant_8" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="rvos" />
+  <remove-project name="platform/external/bouncycastle" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" remote="rvos" />
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
@@ -31,6 +33,8 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="rvos" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="android_frameworks_native" remote="rvos" />
+  <remove-project name="platform/frameworks/opt/net/wifi"
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rvos" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
@@ -82,5 +86,6 @@
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_commonsys_system_bt" remote="rvos" />
   <remove-project name="platform/vendor/qcom-opensource/vibrator" />
   <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom-opensource_vibrator" remote="rvos" />
-
+  <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom-opensource_packages_apps_Bluetooth" remote="rvos" />
 </manifest>
