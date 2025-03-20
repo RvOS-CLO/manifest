@@ -8,11 +8,6 @@
   <project path="bionic" name="AOSPA/android_bionic" remote="aospa" />
   <remove-project name="platform/build/blueprint" />
   <project path="build/blueprint" name="AOSPA/android_build_blueprint" remote="aospa" />
-  <remove-project name="platform/build/soong" />
-  <project path="build/soong" name="AOSPA/android_build_soong" remote="aospa" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
   <remove-project name="platform/libcore" />
   <project path="libcore" name="AOSPA/android_libcore" remote="aospa" />
 
