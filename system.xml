@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="clo" fetch="https://git.codelinaro.org/clo/la" review="codelinaro.org"/>
-  <default remote="clo" revision="partner-android/t-fs-release"/>
   <project name="device/amlogic/yukawa" revision="60c364a7d124129cbaef7fa0994eefe3fe2cae49" upstream="refs/heads/ks-aosp.lnx.13.0.r1-rel" groups="aosp-android13-release,device,pdk,yukawa,qc-common-sys,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3"/>
   <project name="device/amlogic/yukawa-kernel" revision="e5cf661f41ed8338f6bfb02fd27a7c590afeef50" upstream="refs/heads/ks-aosp.lnx.13.0.r1-rel" groups="aosp-android13-release,device,pdk,yukawa,qc-common-sys,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" clone-depth="2"/>
   <project name="device/common" revision="75bb664e8b3662bb456df73550ebd658f1ffed5f" upstream="refs/heads/ks-aosp.lnx.13.0.r1-rel" groups="aosp-android13-release,pdk,pdk-cw-fs,qc-common-sys,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3"/>
